@@ -41,7 +41,7 @@ view = {view}
         fragment.content = f"""<div class="openedx-filter-demos">{fragment.content}{debug_div}</div>"""
 
         logger.info("=========== AddExtraBlock Pipeline Step Start ==========")
-        logger.info("Fragment: %s", fragment)
+        logger.info("Fragment: %s", str(fragment))
         logger.info("Context: %s", context)
         logger.info("View: %s", view)
         logger.info("=========== AddExtraBlock Pipeline Step Stop ==========")
