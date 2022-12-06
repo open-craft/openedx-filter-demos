@@ -33,7 +33,7 @@ class AddExtraBlock(PipelineStep):
         debug_div = f"""<div class="debug-block" style="border: 2px solid red; padding: 1rem; margin: 1rem;">
 <pre>
 fragment = {fragment}
-context = {json.dumps(context, ident=2)}
+context = {json.dumps(context, indent=2)}
 view = {view}
 </pre>
 </div>
