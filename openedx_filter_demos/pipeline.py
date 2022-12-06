@@ -38,7 +38,7 @@ view = {view}
 </pre>
 </div>
 """
-        fragment.content = f"""<div class="openedx-filter-demos">{fragment.content}</div>"""
+        fragment.content = f"""<div class="openedx-filter-demos">{fragment.content}{debug_div}</div>"""
 
         logger.info("=========== AddExtraBlock Pipeline Step Start ==========")
         logger.info("Fragment: %s", fragment)
