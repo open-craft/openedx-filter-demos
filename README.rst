@@ -1,26 +1,17 @@
 openedx-filter-demos
 #############################
 
-.. note::
-
-  This README was auto-generated. Maintainer: please review its contents and
-  update all relevant sections. Instructions to you are marked with
-  "PLACEHOLDER" or "TODO". Update or remove those sections, and remove this
-  note when you are done.
-
 |pypi-badge| |ci-badge| |codecov-badge| |doc-badge| |pyversions-badge|
 |license-badge| |status-badge|
 
 Purpose
 *******
 
-A Open edX plugin application for demoing some openedx-filters.
+A Open edX plugin application for demoing some `openedx-filters`.
 
-TODO: The ``README.rst`` file should start with a brief description of the repository and its purpose.
-It should be described in the context of other repositories under the ``openedx``
-organization. It should make clear where this fits in to the overall Open edX
-codebase and should be oriented towards people who are new to the Open edX
-project.
+This is just a developer tool to quickly implement some pipeline steps for development and testing purposes.
+
+.. _openedx-filters: https://github.com/openedx/openedx-filters
 
 Getting Started
 ***************

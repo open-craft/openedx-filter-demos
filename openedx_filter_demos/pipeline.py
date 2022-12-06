@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 class AddExtraBlock(PipelineStep):
     """
-    Adds an block at the end of the AddExtraBlock.
+    Adds an block at the end of a VerticalBlock.
 
     Example Usage:
 
